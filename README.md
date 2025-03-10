@@ -1,4 +1,4 @@
-# OSS_Dev_Jiwoo
+# OpenSourceDev_JiwooChoi
 Welcome
 
 good lecture
