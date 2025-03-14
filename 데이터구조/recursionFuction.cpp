@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 
 void PrintStar(int n) {
     if(n == 0)
@@ -6,13 +7,13 @@ void PrintStar(int n) {
 
     PrintStar(n - 1);
     for(int i = 0; i < 5; i++)
-        std::cout << "*";
-    std::cout << std::endl;
+        cout << "*";
+    cout << endl;
 }
 
 int main() {
-    std::cout << "start" << std::endl;
+    cout << "start" << endl;
     PrintStar(3);
-    std::cout << "end" << std::endl;
+    cout << "end" << endl;
     return 0;
 }
